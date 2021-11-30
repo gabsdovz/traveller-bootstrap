@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Font-awesome icones-->
+    <script src="https://kit.fontawesome.com/6d71836960.js" crossorigin="anonymous"></script>
+
+    <!-- CSS-->
+    <link rel="stylesheet" href="/styles.css">
+
+
+    <title>Projeto Traveller - Hospedagem</title>
+</head>
+
+<!-- Botao aumentar fonte-->
+<section class="topnav">
+<div class="text-center">
+    <button class="fw-bold corbtn btn-lg" type="button" onclick="tsw_demo_change_font_size();">A+ / A-</button>
+</div>
+</section>
+
+<!-- Barra de navegacao-->
+
+<body id="demo">
+    <nav class="navbar navbar-expand-lg navbar-dark topnav" aria-label="Barra de Navegação">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Gulliver Traveller</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10"
+                aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Hotéis em São Paulo</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span class="fa fa-diamond dimacor" aria-hidden="true"></span>
+                            <span class="fa fa-diamond dimacor" aria-hidden="true"></span>
+                            <span class="fa fa-diamond dimacor" aria-hidden="true"></span>
+                            <span class="fa fa-diamond dimacor" aria-hidden="true"></span>
+                            <i class="fa fa-diamond dimacor" aria-hidden="true"
+                                title="Hotéis com avaliação 5 diamantes"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown10">
+                            <li><a class="dropdown-item" href="./Renaissance.html">Renaissence</a></li>
+                            <li><a class="dropdown-item" href="./Sheraton.html">Sheraton</a></li>
+                            <li><a class="dropdown-item" href="./BlueTreePremiumPaulista.html">Blue Tree Premium
+                                    Paulista</a></li>
+                            <li><a class="dropdown-item" href="./BlueTreePremiumMorumbi.html">Blue Tree Premium
+                                    Morumbi</a></li>
+                            <li><a class="dropdown-item" href="./Bourbon.html">Bourbon</a></li>
+                            <li><a class="dropdown-item" href="./Golden.html">Golden</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span class="fa fa-diamond dimacor" aria-hidden="true"></span>
+                            <span class="fa fa-diamond dimacor" aria-hidden="true"></span>
+                            <span class="fa fa-diamond dimacor" aria-hidden="true"></span>
+                            <i class="fa fa-diamond dimacor" aria-hidden="true"
+                                title="Hotéis com avaliação 4 diamantes"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown10">
+                            <li><a class="dropdown-item" href="./Ibis.html">Ibis Style</a></li>
+                            <li><a class="dropdown-item" href="./Mercure.html">Mercure</a></li>
+                            <li><a class="dropdown-item" href="./Comfort.html">Comfort</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Deixe seu Comentário</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Divisao-->
+    <div class="text-center bloco1">
+        <h1 class="display-6 fw-bold">Onde se hospedar?</h1>
+    </div>
+
+    <!-- Informacoes Hotel-->
+    <section class="bloco2">
+        <div class="text-center border-bottom">
+            <h1 class="display-6 fw-bold hotelname">Sheraton São Paulo WTC Hotel</h1>
+            <div class="container px-5">
+                <a href="./Sheraton.html">
+                <img src="./images/hotel_Sheraton/fachada-Sheraton.jpg" class="img-fluid border rounded-3 shadow-lg mb-4"
+                    alt="Fachada Hotel Sheraton" width="600" height="600" loading="lazy"></a>
+            </div>
+        </div>
+        <div class="bloco1">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Avaliação</h2>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true" title="5 diamantes"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+            </div>
+            <div class="col-lg-6 mx-auto px-2 py-2 my-2">
+                <p class="lead mb-4 text-center">O hotel faz parte do complexo WTC, que inclui mais de 20 restaurantes, bancos,
+                    farmácia e casa de
+                    câmbio, tornando a sua estadia mais confortável e segura.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Servicos-->
+    <section class="bloco2">
+        <div class="container px-2 py-2 my-2">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <i class="fas fa-shuttle-van fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Transporte para o aeroporto</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-swimmer fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Piscina</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-dumbbell fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Academia de ginástica</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Informacoes Hotel-->
+    <section class="bloco2">
+        <div class="text-center border-bottom">
+            <h1 class="display-6 fw-bold hotelname">Renaissance São Paulo Hotel</h1>
+            <div class="container px-5">
+                <a href="./Renaissance.html">
+                <img src="./images/hotel_renaissance/hotel_renaissance_recepcao.jpg"" class=" img-fluid border rounded-3
+                    shadow-lg mb-4" alt="Hotel Renaissance" width="600" height="600" loading="lazy"></a>
+            </div>
+        </div>
+        <div class="bloco1">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Avaliação</h2>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true" title="5 diamantes"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+            </div>
+            <div class="col-lg-6 mx-auto px-2 py-2 my-2">
+                <p class="lead mb-4 text-center">Viva uma experiência inesquecível em nosso hotel de luxo em São Paulo!</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Servicos-->
+    <section class="bloco2">
+        <div class="container px-2 py-2 my-2">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <i class="fas fa-cut fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Salão de beleza</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-swimmer fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Piscina ao ar livre</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-paw fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Animais de estimação são bem-vindos</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Informacoes Hotel-->
+    <section class="bloco2">
+        <div class="text-center border-bottom">
+            <h1 class="display-6 fw-bold hotelname">Bourbon Convention Ibirapuera</h1>
+            <div class="container px-5">
+                <a href="./Bourbon.html">
+                <img src="./images/hotel_BourbonIbirapuera/fachada-bourbonibirapuera.jpg"
+                    class="img-fluid border rounded-3 shadow-lg mb-4" alt="Fachada Hotel Bourbon Convention Ibirapuera"
+                    width="600" height="600" loading="lazy"></a>
+            </div>
+        </div>
+        <div class="bloco1">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Avaliação</h2>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true" title="5 diamantes"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+            </div>
+            <div class="col-lg-6 mx-auto px-2 py-2 my-2">
+                <p class="lead mb-4 text-center">Com ampla recepção, além de recuo para embarque e desembarque de ônibus e vans, o
+                    hotel é a opção ideal
+                    para realização de eventos, hospedagem de grupos e para pessoas que estão na cidade de São Paulo a
+                    negócios ou lazer.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Servicos-->
+    <section class="bloco2">
+        <div class="container px-2 py-2 my-2">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <i class="fas fa-business-time fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Business Center</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-child fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Espaço Kids</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-dumbbell fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Fitness Center</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Informacoes Hotel-->
+    <section class="bloco2">
+        <div class="text-center border-bottom">
+            <h1 class="display-6 fw-bold hotelname">Blue Tree Premium Paulista</h1>
+            <div class="container px-5">
+                <a href="./BlueTreePremiumPaulista.html">
+                <img src="./images/hotel_BlueTreePaulista/fachada-bluetreepaulista.png" class="img-fluid border rounded-3 shadow-lg mb-4"
+                    alt="Fachada Hotel Blue Tree Premium Paulista" width="600" height="600" loading="lazy"></a>
+            </div>
+        </div>
+        <div class="bloco1">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Avaliação</h2>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true" title="5 diamantes"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+            </div>
+            <div class="col-lg-6 mx-auto px-2 py-2 my-2">
+                <p class="lead mb-4 text-center">O hotel tem uma completa infraestrutura para seu conforto e facilidades exclusivas, como os serviços
+                    orientais. É a união do estilo japonês de servir aliado à hospitalidade brasileira</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Servicos-->
+    <section class="bloco2">
+        <div class="container px-2 py-2 my-2">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <i class="fas fa-utensils fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Café da manhã gratuito</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-swimmer fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Piscina</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-wifi fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Internet sem fio gratuita e de alta velocidade (WiFi)</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Informacoes Hotel-->
+    <section class="bloco2">
+        <div class="text-center border-bottom">
+            <h1 class="display-6 fw-bold hotelname">Blue Tree Premium Morumbi</h1>
+            <div class="container px-5">
+                
+            <a href="./BlueTreePremiumMorumbi.html">            
+                <img src="./images/hotel_BlueTreeMorumbi/fechada-bluetreemorumbi.jpg" class="img-fluid border rounded-3 shadow-lg mb-4"
+                    alt="Fachada Hotel Blue Tree Premium Morumbi" width="600" height="600" loading="lazy"></a>
+            </div>
+        </div>
+        <div class="bloco1">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Avaliação</h2>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true" title="5 diamantes"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+            </div>
+            <div class="col-lg-6 mx-auto px-2 py-2 my-2">
+                <p class="lead mb-4 text-center"> O Blue Tree Premium Morumbi é um hotel moderno e com atenção aos detalhes. <br>
+                    A infraestrutura completa e os serviços com a qualidade Blue Tree vão tornar sua estada ou evento ainda
+                    mais especial.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Servicos-->
+    <section class="bloco2">
+        <div class="container px-2 py-2 my-2">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <i class="fas fa-wifi fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Internet gratuita</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-swimmer fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Piscina</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-dumbbell fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Academia de ginástica</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Informacoes Hotel-->
+    <section class="bloco2">
+        <div class="text-center border-bottom">
+            <h1 class="display-6 fw-bold hotelname">Golden Tulip Paulista Plaza</h1>
+            <div class="container px-5">
+                <a href="./Golden.html">
+                <img src="./images/hotel_GoldenTulip/fachada-goldentulip.jpg" class="img-fluid border rounded-3 shadow-lg mb-4"
+                    alt="Fachada Hotel Golden Tulip Paulista Plaza" width="600" height="600" loading="lazy"></a>
+            </div>
+        </div>
+        <div class="bloco1">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Avaliação</h2>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true" title="5 diamantes"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+            </div>
+            <div class="col-lg-6 mx-auto px-2 py-2 my-2">
+                <p class="lead mb-4 text-center">Hospede-se a um quarteirão da Avenida Paulista em São Paulo!</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Servicos-->
+    <section class="bloco2">
+        <div class="container px-2 py-2 my-2">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <i class="fas fa-wifi fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Internet sem fio gratuita e de alta velocidade (WiFi)</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-swimmer fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Piscina</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-car fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Estacionamento com manobrista</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Informacoes Hotel-->
+    <section class="bloco2">
+        <div class="text-center border-bottom">
+            <h1 class="display-6 fw-bold hotelname">Ibis Styles - Anhembi</h1>
+            <div class="container px-5">
+                <a href="./Ibis.html">
+                <img src="./images/hotel_ibis/hotel_ibis_fachada_1024x768.jpg" class="img-fluid border rounded-3 shadow-lg mb-4"
+                    alt="Hotel Ibis" width="600" height="600" loading="lazy"></a>
+            </div>
+        </div>
+        <div class="bloco1">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Avaliação</h2>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true" title="4 diamantes"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+            </div>
+            <div class="col-lg-6 mx-auto px-2 py-2 my-2">
+                <p class="lead mb-4 text-center">Hotel de design econômico, aberto às mentes criativas.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Servicos-->
+    <section class="bloco2">
+        <div class="container px-2 py-2 my-2">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <i class="fas fa-cocktail fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Bar/lounge</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-concierge-bell fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Recepção 24 horas</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-wifi fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Internet sem fio gratuita e de alta velocidade (WiFi)</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Informacoes Hotel-->
+    <section class="bloco2">
+        <div class="text-center border-bottom">
+            <h1 class="display-6 fw-bold hotelname">Mercure - Pamplona</h1>
+            <div class="container px-5">
+                <a href="./Mercure.html">
+                <img src="./images/hotel_mercure/hotel_mercure_fachada_2.jpg" class="img-fluid border rounded-3 shadow-lg mb-4"
+                    alt="Hotel Mercure" width="600" height="600" loading="lazy"></a>
+            </div>
+        </div>
+        <div class="bloco1">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Avaliação</h2>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true" title="4 diamantes"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+            </div>
+            <div class="col-lg-6 mx-auto px-2 py-2 my-2">
+                <p class="lead mb-4 text-center">Hotel para viajantes à procura de experiências locais e autênticas.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Servicos-->
+    <section class="bloco2">
+        <div class="container px-2 py-2 my-2">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <i class="fas fa-utensils fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Restaurante</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-shapes fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Canais de TV infantis</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-heart fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Suíte nupcial</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Informacoes Hotel-->
+    <section class="bloco2">
+        <div class="text-center border-bottom">
+            <h1 class="display-6 fw-bold hotelname">Comfort Ibirapuera</h1>
+            <div class="container px-5">
+                <a href="./Comfort.html">
+                <img src="./images/hotel_comfort/Hotel-Comfort-Ibirapuera-3-1280x720.jpg" class="img-fluid border rounded-3 shadow-lg mb-4"
+                    alt="Hotel Comfort" width="600" height="600" loading="lazy"></a>
+            </div>
+        </div>
+        <div class="bloco1">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Avaliação</h2>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true" title="4 diamantes"></span>
+                <span class="fa fa-diamond dimacor section-subheading" aria-hidden="true"></span>
+            </div>
+            <div class="col-lg-6 mx-auto px-2 py-2 my-2">
+                <p class="lead mb-4 text-center"> Este hotel fora do centro possui piscina externa e fica perto da Paróquia Nossa Senhora Aparecida.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Servicos-->
+    <section class="bloco2">
+        <div class="container px-2 py-2 my-2">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <i class="fas fa-table-tennis fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Quadra de tênis</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-swimmer fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Piscina Externa</h4>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-golf-ball fa-4x" aria-hidden="true"></i>
+                    <h4 class="my-3">Campo de golfe</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Footer-->
+   <footer class="footer py-4 bloco1">
+    <div class="container">
+        <div class="row align-items-center text-center">
+            <div class="col-lg-4 text-lg-start"> Copyright © 2021 Projeto Traveller - FIAP</div>
+            <div class="col-lg-4 my-3 my-lg-0 text-center">
+                <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+                <a class="link-dark text-decoration-none me-3" href="#!">Política de Privacidade</a>
+                <a class="link-dark text-decoration-none" href="#!">Termos de Uso</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+    <!-- Carrega script do botao de aumentar fonte-->
+    <script src="./js/menu.js"></script>
+
+
+</body>
+
+</html>
